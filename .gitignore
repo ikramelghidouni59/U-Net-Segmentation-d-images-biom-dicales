@@ -1,0 +1,64 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Données téléchargées
+# ==============================
+unet/
+data/
+datasets/
+
+# ==============================
+# Résultats générés
+# ==============================
+predictions_test/
+predictions/
+outputs/
+results/
+
+# Modèles et poids sauvegardés
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+
+# ==============================
+# Logs et fichiers temporaires
+# ==============================
+logs/
+runs/
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Système et éditeurs
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==============================
+# Secrets et configurations locales
+# ==============================
+.env
+.env.*
+!.env.example
